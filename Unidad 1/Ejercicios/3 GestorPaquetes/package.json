@@ -1,0 +1,16 @@
+{
+  "name": "3-gestorpaquetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "description": "Generar nombre aleatorio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haziel",
+  "license": "ISC",
+  "dependencies": {
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  }
+}

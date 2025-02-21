@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "inquirer": "^12.4.2",
+    "qr-image": "^3.2.0"
+  },
+  "name": "4-barcode",
+  "version": "1.0.0",
+  "description": "generar imagen qr de enlace git",
+  "main": "indes.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haziel",
+  "license": "ISC"
+}
