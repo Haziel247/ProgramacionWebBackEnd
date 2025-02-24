@@ -1,0 +1,14 @@
+{
+  "name": "servers",
+  "version": "1.0.0",
+  "description": "Creacion de Servidores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haziel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
