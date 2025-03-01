@@ -1,0 +1,11 @@
+Ejemplos de mensajes commit
+- Commit inicial
+- Añadir estructura basica del proyecto
+- Implementar funcionalidad principal
+- Corregir errores en la autenticación de usuarios
+- Actualizar README con instrucciones de configuración
+- Refactorizar código para mejor legibilidad
+- Añadir pruebas unitarias para módulos principales
+- Mejorar el rendimiento del procesamiento de datos
+- Actualizar dependencias a las últimas versiones
+- Corregir errores tipográficos y mejorar la documentación

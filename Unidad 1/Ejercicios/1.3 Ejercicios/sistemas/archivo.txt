@@ -1,17 +1,17 @@
-cd $env:USERPROFILE\Desktop
+cd $env:USERPROFILE\Desktop             Cambiar al directorio "Escritorio" del usuario
 
-cd ..
+cd ..                                   Cambiar al directorio padre del actual
 
-cd -
+cd -                                    Cambiar al directorio previo
 
-mkdir MiNombre
+mkdir MiNombre                          Crear un directorio con tu nombre
 
-rmdir MiNombre -Force
+rmdir MiNombre -Force                   Eliminar el directorio creado
 
-mkdir LaboratorioNombre
+mkdir LaboratorioNombre                 Crear un directorio con el nombre del laboratorio
 
-ls  # O también Get-ChildItem
+ls  # O también Get-ChildItem           Listar el contenido de un directorio
 
-New-Item archivo.txt -ItemType File
+New-Item archivo.txt -ItemType File     Crear un archivo vacío
 
-code archivo.txt
+code archivo.txt                        Abrir el archivo creado en Visual Studio Code
