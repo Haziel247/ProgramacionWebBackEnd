@@ -1,17 +1,90 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
     color: #333;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 nav a {
-    margin: 10px;
+    color: white;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
-    color: #007bff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección principal */
+.hero {
+    padding: 50px 20px;
+    background: #e3f2fd;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    color: #0056b3;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
