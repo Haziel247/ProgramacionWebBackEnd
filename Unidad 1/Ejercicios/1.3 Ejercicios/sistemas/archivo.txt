@@ -1,0 +1,17 @@
+cd $env:USERPROFILE\Desktop
+
+cd ..
+
+cd -
+
+mkdir MiNombre
+
+rmdir MiNombre -Force
+
+mkdir LaboratorioNombre
+
+ls  # O también Get-ChildItem
+
+New-Item archivo.txt -ItemType File
+
+code archivo.txt
