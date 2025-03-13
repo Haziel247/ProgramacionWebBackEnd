@@ -1,0 +1,10 @@
+nombre = input("Ingrese su nombre completo: ")
+semestre = int(input("Semestre: "))
+grupo = input("Grupo: ")
+carrera = input("Carrera: ")
+
+print("\n---------------------------------------------")
+print(f"Nombre: {nombre}")
+print(f"Semestre: {semestre}")
+print(f"Grupo: {grupo}")
+print(f"Carrera: {carrera}")
