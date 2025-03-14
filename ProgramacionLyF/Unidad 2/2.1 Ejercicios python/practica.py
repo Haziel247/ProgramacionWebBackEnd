@@ -1,4 +1,6 @@
 def hacer_pregunta(pregunta, opciones):
+    print("")
+    print("-----------------------------------------")
     print(pregunta)
     for i, opcion in enumerate(opciones, 1):
         print(f"{i}. {opcion[0]}")
@@ -55,6 +57,7 @@ def identificar_intereses():
     for pregunta, opciones in preguntas:
         respuesta = hacer_pregunta(pregunta, opciones)
         puntajes[respuesta] += 1
+
     print("........................................................")
     print("\nResultados:")
     for rama, puntaje in puntajes.items():
