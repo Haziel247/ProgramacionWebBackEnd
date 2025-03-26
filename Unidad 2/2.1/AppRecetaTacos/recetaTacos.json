@@ -1,0 +1,151 @@
+[
+  {
+    "id": "0001",
+    "tipo": "taco",
+    "nombre": "Taco lechon",
+    "precio": 20.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Puerco",
+        "preparacion": "Horneado"
+      },
+      "salsa": {
+        "nombre": "Tomate verde",
+        "picor": "Medio"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla",
+          "cantidad": "1 cucharada",
+          "ingredientes": [
+            "Cebolla blanca",
+            "Cilantro",
+            "Naranja",
+            "Sal"
+          ]
+        },
+        {
+          "nombre": "Guacamole",
+          "cantidad": "2 cucharadas",
+          "ingredientes": [
+            "Aguacate",
+            "Jugo de limon",
+            "Sal",
+            "Cebolla",
+            "Cilantro"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0002",
+    "tipo": "taco",
+    "nombre": "Taco de Birria",
+    "precio": 25.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Res",
+        "preparacion": "Cocido en caldo con especias"
+      },
+      "salsa": {
+        "nombre": "Chile guajillo",
+        "picor": "Alto"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla y Cilantro",
+          "cantidad": "Al gusto",
+          "ingredientes": [
+            "Cebolla",
+            "Cilantro",
+            "Sal"
+          ]
+        },
+        {
+          "nombre": "Consomé de birria",
+          "cantidad": "1 taza",
+          "ingredientes": [
+            "Caldo de res",
+            "Especias",
+            "Chile guajillo"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0003",
+    "tipo": "taco",
+    "nombre": "Taco de Pollo en Escabeche",
+    "precio": 18.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Pollo",
+        "preparacion": "Cocido en escabeche"
+      },
+      "salsa": {
+        "nombre": "Chipotle",
+        "picor": "Medio"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla morada",
+          "cantidad": "1 cucharada",
+          "ingredientes": [
+            "Cebolla morada",
+            "Vinagre",
+            "Sal",
+            "Orégano"
+          ]
+        },
+        {
+          "nombre": "Zanahorias en escabeche",
+          "cantidad": "3 rodajas",
+          "ingredientes": [
+            "Zanahoria",
+            "Vinagre",
+            "Chile jalapeño",
+            "Sal"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0004",
+    "tipo": "taco",
+    "nombre": "Taco de Chicharrón Prensado",
+    "precio": 22.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Chicharrón prensado",
+        "preparacion": "Guisado con salsa roja"
+      },
+      "salsa": {
+        "nombre": "Salsa roja",
+        "picor": "Alto"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla y Cilantro",
+          "cantidad": "Al gusto",
+          "ingredientes": [
+            "Cebolla",
+            "Cilantro",
+            "Sal"
+          ]
+        },
+        {
+          "nombre": "Queso fresco",
+          "cantidad": "30 gramos",
+          "ingredientes": [
+            "Leche",
+            "Sal",
+            "Cuajo"
+          ]
+        }
+      ]
+    }
+  }
+]
