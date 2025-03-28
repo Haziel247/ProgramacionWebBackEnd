@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Materias</title>
+</head>
+
+<body>
+
+    <h1>Materias 📚</h1>
+
+    <form id="Form" class="buttons">
+        <button type="button" data-type="Álgebra">🧮</button>
+        <button type="button" data-type="Cálculo">🔢</button>
+        <button type="button" data-type="Geometría">📏</button>
+        <button type="button" data-type="Estadística">📈</button>
+    </form>
+
+    <div id="Container"></div>
+
+    <script>
+        document.querySelectorAll("#Form button").forEach(button => {
+            button.addEventListener("click", async (event) => {
+                type = event.target.getAttribute("data-type").toLowerCase();
+
+                try {
+                    const response = await fetch(`/tema/${type}`);
+                    if (!response.ok) {
+                        throw new Error('Tema no encontrada');
+                    }
+
+                    const tema = await response.json();
+                    const contenedor = document.getElementById('Container');
+
+                    contenedor.innerHTML = `
+                        <h2>${tema.nombre}</h2>
+                        ${tema.descripcion} <br />
+                        <h3>Practicas:</h3>
+                        <ul id = 'practicas'>
+                            ${tema.practicas.map(practicas => `
+                            <li class = 'titulo'>${practicas.titulo}</li>
+                            <li>Descripción: ${practicas.descripcion}</li>
+                            <li>Objetivo: ${practicas.objetivo}</li>
+                            <br />
+                            `).join("")}
+                        </ul>
+                        
+                    `;
+                } catch (error) {
+                    document.getElementById('Container').innerHTML = "<h2>Tema no encontrada</h2>";
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
